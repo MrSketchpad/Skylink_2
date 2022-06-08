@@ -1,0 +1,17 @@
+name: Skylink
+version: '${project.version}'
+main: sketchpad.skylink.Skylink
+api-version: 1.18
+authors: [ Mr_Sketchpad ]
+description: Create custom Hypixel Skyblock items with working stats and abilities using Skylink!
+depend: [NBTAPI]
+commands:
+  getitem:
+    permission: Skylink.player
+  upgradeitem:
+    permission: Skylink.player
+permissions:
+  Skylink.player:
+    default: true
+  Skylink.admin:
+    default: false
